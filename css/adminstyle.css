@@ -1,0 +1,41 @@
+body {
+  background-color: #2f4050;
+  margin: 0;
+  padding: 0;
+}
+.col-sm-10 {
+  background-color: #fff;
+}
+#side-menu a {
+  color: #9fb1c2;
+}
+#side-menu .active a {
+  color: #ffffff;
+  background-color: #27aaf1;
+  font-weight: bold;
+}
+#side-menu a:hover {
+  color: #fff;
+  background-color: #1ab394;
+  font-weight: bold;
+  display: block;
+}
+#footer {
+  padding: 10px;
+  border-top: 1px solid black;
+  color: #eeeeee;
+  background-color: #211f22;
+  text-align: center;
+
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+}
+.FieldInfo {
+  color: #b4886b;
+  font-weight: bold;
+  display: block;
+  width: 150px;
+  float: left;
+}
